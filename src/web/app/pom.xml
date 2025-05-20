@@ -20,7 +20,7 @@
     <configId>minimal</configId>
     <configDirectory>${basedir}/../../../data</configDirectory>
     <webappSourceDirectory>${basedir}/src/main/webapp</webappSourceDirectory>
-    <jetty.port>8080</jetty.port>
+    <jetty.port>7005</jetty.port>
     <jetty.run.daemon>false</jetty.run.daemon>
   </properties>
   <dependencies>

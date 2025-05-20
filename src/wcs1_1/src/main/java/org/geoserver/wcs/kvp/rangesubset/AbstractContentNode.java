@@ -5,6 +5,8 @@
  */
 package org.geoserver.wcs.kvp.rangesubset;
 
+import org.w3c.dom.Node;
+
 /**
  * Abstract node that add the concept of a node content
  *
