@@ -29,6 +29,7 @@ public interface WebMapService {
 
     Object capabilities(GetCapabilitiesRequest request);
 
+    // NOTE WMS-operation-GetMap
     /** GetMap operation. */
     WebMap getMap(GetMapRequest request);
 
@@ -37,6 +38,7 @@ public interface WebMapService {
     /** DescribeLayer operation. */
     DescribeLayerModel describeLayer(DescribeLayerRequest request);
 
+    // NOTE WMS-operation-GetFeatureInfo
     /** GetFeatureInfo operation. */
     FeatureCollectionType getFeatureInfo(GetFeatureInfoRequest request);
 
